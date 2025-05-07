@@ -12,10 +12,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8174389608:AAHNFptZg4Vc6eY22wuS31rFvCZTj8SNBfQ")
 
 #Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "20793620"))
+API_ID = int(os.environ.get("API_ID", "24777493"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "a712d2b8486f26c4dee5127cc9ae0615")
+API_HASH = os.environ.get("API_HASH", "bf5a6381d07f045af4faeb46d7de36e5")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002612089412"))
@@ -26,8 +26,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7558932006"))
 #Port
 PORT = os.environ.get("PORT", "8043")
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.uyu3f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "test2")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.nrsn4nr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "wtflinksofficial")
 
 
 
